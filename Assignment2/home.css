@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #4FCA50;
+    color: white;
+}
+
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: auto; 
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+
+.wel-grp{
+    margin: 60px;
+}
+
+.title2{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 28px;
+    color: #16A34A;
+}
+
+.title2-info{
+    margin: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.image1{
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+}
+
+.get-start{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.get-start button{
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    background-color: #4FCA50;
+    font-size: 20px;
+    height: 60px;
+    width: 180px;
+}
+
+.title3{
+    margin: 60px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.title3-info li{
+    margin: 10px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.title3-info{
+    display: flex;
+    justify-content: center;
+}
+
+.title4{
+    margin: 60px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.image2{
+    height: 600px;
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.title4-info li{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.title4-info{
+    display: flex;
+    justify-content: center;
+}
+
+.title5{
+    margin: 60px;
+    font-size: 23px;
+    text-align: center;
+    color: #16A34A;
+}
+
+.image3{
+    height: 600px;
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.title5-info{
+    padding: 0px 80px 0px 80px;
+    text-align: center;
+    font-size: 25px;
+    margin: 50px;
+}
+
+footer{
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;align-items: center;
+}
